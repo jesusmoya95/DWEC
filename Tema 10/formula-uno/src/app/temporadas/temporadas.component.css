@@ -1,0 +1,58 @@
+.temporadas{
+    margin: 100px 0px;
+    padding: 10px 20px;
+    background-color: ghostwhite;
+    text-align: center;
+}
+
+.temporadas h3{
+    font-size: 24px;
+    color: darkblue
+}
+
+.temporadas table th{
+    background-color: skyblue;
+    font-size: 22px;
+    width: 200px;
+    height: 40px;
+}
+
+.temporadas table tr{
+    text-align: center;
+    height: 50px;
+}
+
+
+
+
+
+.a2012{
+    background-color: #F5A9A9;
+}
+.a2013{
+    background-color:#F5D0A9;
+}
+.a2014{
+    background-color:#F2F5A9;
+}
+.a2015{
+    background-color:#BEF781;
+}
+.a2016{
+    background-color:#A9F5BC;
+}
+.a2017{
+    background-color:#A9F5F2;
+}
+.a2018{
+    background-color:#A9BCF5;
+}
+
+.temporadas a:hover{
+    color: rgb(32, 0, 0);
+    background-color: rgb(189, 220, 255);
+}
+
+.temporadas table tr:hover{
+    background-color: darkcyan
+}

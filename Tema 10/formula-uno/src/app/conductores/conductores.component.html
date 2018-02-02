@@ -1,0 +1,15 @@
+<div class="conductores">
+  <h3> Todos los conductores</h3>
+  <ul *ngFor="let driver of datos">
+    <a routerLink="/drivers/{{driver.driverId}}" routerLinkActive="active">{{ driver.givenName }}</a>
+  </ul>
+  
+  
+  
+  <!-- <ul *ngFor="let lista of datos">
+    <ul *ngFor="let conductor of lista">
+     <a routerLink="/conductor/{{conductor.driverId}}" routerLinkActive="active">{{ conductor.familyName }}</a>
+    </ul>
+  </ul> -->
+
+</div>

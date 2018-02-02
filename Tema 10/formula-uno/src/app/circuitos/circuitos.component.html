@@ -1,0 +1,8 @@
+
+<div class="circuitos">
+  <h3>Todos los circuitos</h3>
+  <ul *ngFor="let circuito of datos">
+    <a routerLink="/circuitos/{{circuito.circuitId}}" routerLinkActive="active">{{ circuito.circuitName }}</a>
+  </ul>
+
+</div>

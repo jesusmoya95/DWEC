@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Doc2Ejerc4</title>
+        <meta name="author" content="Jesus">
+        <meta name="description" content="Presentacion">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+        
+   <style>
+            label{
+                display: block;
+                margin: 10px;
+            }
+            #usuarioOk{
+                display: none;
+            }
+            #usuarioError{
+                display: none;
+            }
+           #existe{
+               display: none;
+           }
+
+            
+        </style>
+    </head>
+    <body>
+
+        <form method="post">
+            <fieldset>
+                <label>
+                    <b>Nombre de usuario - </b>
+                    <input type="text" name="usuario" id="usuario" onblur="validarUsuario()">
+                    <img src="Imagenes/correcto.png" width="25px" height="25px" id="usuarioOk">
+                    <img src="Imagenes/error.png" width="25px" height="25px" id="usuarioError">
+                    <p id="existe">Este usuario ya existe.</p>
+                </label>
+                <label>
+                    <button onclick="comprobar()">Enviar</button>
+                </label>
+            </fieldset>
+        </form>
+        
+        <script type="text/javascript" src="Doc2Ejerc4.js"></script>
+    </body>
+</html>

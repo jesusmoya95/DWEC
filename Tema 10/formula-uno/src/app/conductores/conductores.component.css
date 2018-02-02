@@ -1,0 +1,21 @@
+.conductores{
+    margin: 100px 0px;
+    padding: 10px 250px;
+    background-color: ghostwhite;
+}
+
+.conductores h3{
+    font-size: 24px;
+    color: darkmagenta;
+}
+
+
+.conductores ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: darkorchid;
+}
+.conductores ul a:hover{
+    color: brown;
+    background-color: gainsboro;
+}

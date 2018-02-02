@@ -1,0 +1,28 @@
+.historia {
+    margin: 100px 0px;
+    padding: 10px 100px;
+    background-color: ghostwhite;
+    text-align: center;
+}
+
+.historia h1{
+    color: brown;
+    font-size: 32px;
+}
+
+.historia h3{
+    font-size: 24px;
+    color: coral;
+}
+.historia p{
+    color: black;
+    font-size: 22px;
+}
+
+.historia img{
+    height: 600px;
+    width: 660px;
+    align-content: center;
+    text-align: center;
+}
+

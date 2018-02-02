@@ -1,0 +1,28 @@
+.circuito{
+    margin: 50px 8%;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+
+.circuito table td{
+    font-size: 20px;
+    background-color: darkseagreen;
+    height: 50px;
+}
+.circuito table th{
+    background-color: aquamarine;
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+}
+
+.titulo{
+    font-size: 28px;
+    color: dodgerblue;
+}
+
+.circuito a:hover{
+    color: rgb(32, 0, 0);
+    background-color: rgb(189, 220, 255);
+}

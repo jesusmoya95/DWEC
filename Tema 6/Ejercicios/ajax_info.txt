@@ -1,0 +1,1 @@
+<h2> Esto se ha recargado con ajax</h2>

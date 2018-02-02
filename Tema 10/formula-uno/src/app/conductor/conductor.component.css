@@ -1,0 +1,28 @@
+.conductor{
+    margin: 50px 4%;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+
+.conductor table td{
+    font-size: 20px;
+    background-color: darkseagreen;
+    height: 50px;
+}
+.conductor table th{
+    background-color: aquamarine;
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+}
+
+.titulo{
+    font-size: 28px;
+    color: dodgerblue;
+}
+
+.conductor a:hover{
+    color: rgb(32, 0, 0);
+    background-color: rgb(189, 220, 255);
+}

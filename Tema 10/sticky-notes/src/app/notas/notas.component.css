@@ -1,0 +1,12 @@
+.nota{
+    height:200px; 
+    width:200px; 
+    background-color:#C8FE2E; 
+    border:#AEB404 2px solid; 
+    text-align:center;
+}
+
+tituloNota{
+    background-color:#D7DF01; 
+    padding:0; margin:0;
+}

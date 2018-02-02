@@ -1,0 +1,20 @@
+<div class="circuito" id="circuito">
+  <p class="titulo">{{ datos.circuitName }}</p>
+  <table>
+    <tr>
+      <th>Nombre del circuito</th>
+      <th>ID Circuito</th>
+      <th>Localidad</th>
+      <th>Pais</th>
+      <th>Información</th>
+    </tr>
+    <tr>
+      <td>{{ datos.circuitName }}</td>
+      <td>{{ datos.circuitId }}</td>
+      <td>{{ datos.Location.locality }}</td>
+      <td>{{ datos.Location.country }}</td>
+      <td><a href="{{ datos.url }}">{{ datos.circuitId }}</a></td>
+    </tr>
+  </table>
+
+</div>

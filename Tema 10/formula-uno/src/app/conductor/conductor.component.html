@@ -1,0 +1,22 @@
+<div class="conductor">
+    <p class="titulo">{{ datos.givenName }}</p>
+    <table>
+      <tr>
+        <th>Nombre del conductor</th>
+        <th>Apellido</th>
+        <th>ID Conductor</th>
+        <th>Fecha Nacimiento</th>
+        <th>Nacionalidad</th>
+        <th>Información</th>
+      </tr>
+      <tr>
+        <td>{{ datos.givenName }}</td>
+        <td>{{ datos.familyName }}</td>
+        <td>{{ datos.driverId }}</td>
+        <td>{{ datos.dateOfBirth }}</td>
+        <td>{{ datos.nationality }}</td>
+        <td><a href="{{ datos.url }}">{{ datos.driverId }}</a></td>
+      </tr>
+    </table>
+  
+  </div>

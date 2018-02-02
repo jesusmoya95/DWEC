@@ -1,0 +1,75 @@
+<div class="temporadas">
+    <h3>Temporadas a partir del 2012</h3>
+    
+    <table>
+      <tr>
+          <th>Temporada</th>
+          <th>Ronda</th>
+          <th>Nombre de la carrera</th>
+          <th>Fecha</th>
+          <th>Tiempo</th>
+          <th>Circuito</th>
+          <th>Localidad</th>
+          <th>Pais</th>
+          <th>Información</th>
+      </tr>
+      <tr *ngFor="let temporada of datos" class="a{{temporada.season}}">
+          <td>{{ temporada.season }}</td>
+          <td>{{ temporada.round }}</td>
+          <td>{{ temporada.raceName }}</td>
+          <td>{{ temporada.date }}</td>
+          <td>{{ temporada.time }}</td>
+          <td>{{ temporada.Circuit.circuitName }}</td>
+          <td>{{ temporada.Circuit.Location.locality }}</td>
+          <td>{{ temporada.Circuit.Location.country }}</td>
+          <td><a href="{{ temporada.url }}">{{ temporada.raceName }}</a></td>
+      </tr>
+    </table>
+    
+    
+    
+    
+    
+    
+    <!-- <table *ngFor="let temporada of datos">
+      <tr>
+        <th>Temporada</th>
+        <td>{{ temporada.season }}</td>
+      </tr>
+      <tr>
+        <th>Ronda</th>
+        <td>{{ temporada.round }}</td>
+      </tr>
+      <tr>
+        <th>Nombre de la carrera</th>
+        <td>{{ temporada.raceName }}</td>
+      </tr>
+      <tr>
+        <th>Fecha</th>
+        <td>{{ temporada.date }}</td>
+      </tr>
+      <tr>
+        <th>Tiempo</th>
+        <td>{{ temporada.time }}</td>
+      </tr>
+      <tr>
+        <th>Circuito</th>
+        <td>{{ temporada.Circuit.circuitName }}</td>
+      </tr>
+      <tr>
+        <th>Localidad</th>
+        <td>{{ temporada.Circuit.Location.locality }}</td>
+      </tr>
+      <tr>
+        <th>Pais</th>
+        <td>{{ temporada.Circuit.Location.country }}</td>
+      </tr>
+      <tr>
+        <th>Información</th>
+        <td><a href="{{ temporada.url }}">{{ temporada.raceName }}</a></td>
+      </tr>
+
+    </table>
+  -->
+  
+  </div>
